@@ -1,0 +1,62 @@
+/* transactions.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('artist.jpg'); /* Replace with your actual image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Display flex container as column */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+h2 {
+    color: #f2eeee;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom for separation */
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px; /* Add margin at the top of the table */
+}
+
+th, td {
+    border: 1px solid #f2eeee; /* Set border color */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(74, 79, 91); /* Header background color */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for even rows */
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+    background-color: rgb(74, 79, 91); /* Adjust background color as needed */
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px; /* Add margin between the table and the Back to Dashboard link */
+}
+
+a:hover {
+    background-color: rgb(109, 119, 143); /* Adjust hover background color as needed */
+}

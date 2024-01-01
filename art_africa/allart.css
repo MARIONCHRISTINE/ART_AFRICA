@@ -1,0 +1,90 @@
+/* allart.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background_image.jpg'); /* Replace with your actual image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Display flex container as column */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(70, 68, 68); /* Ensure the body takes at least the full height of the viewport */
+}
+
+h2, h3 {
+    color: #f2eeee;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom for separation */
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+form {
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold; /* Added to make labels bold */
+    font-size: 1.2em; /* Increased font size */
+    color: #fff; /* Label text color */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: transparent; /* Set background color to transparent */
+    border: 1px solid; /* Add a border for clarity */
+    font-size: 1em; /* Increased font size */
+    color: #fff;
+}
+
+button {
+    background-color: rgb(74, 79, 91); /* Adjust background color as needed */
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Increased font size */
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(109, 119, 143); /* Adjust hover background color as needed */
+}
+
+div {
+    max-width: 600px; /* Set a maximum width for the artwork divs */
+    margin: 20px; /* Add margin between artwork divs */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+    background-color: rgb(41, 43, 49); /* Adjust background color as needed */
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px; /* Add margin between the artwork div and the Back to Dashboard link */
+}
+
+a:hover {
+    background-color: rgb(109, 119, 143); /* Adjust hover background color as needed */
+}
